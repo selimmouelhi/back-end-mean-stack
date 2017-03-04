@@ -18,7 +18,7 @@ app.use(function(req,res,next){
       next();
 
 });
-app.get("/api/message",GetMessage)
+app.get("/api/message",GetMessages);
 
 app.post("/api/message",function(req,res){
   console.log(req.body);
