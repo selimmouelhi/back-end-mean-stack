@@ -27,7 +27,7 @@ app.post("/api/message",function(req,res){
   res.status(200);
 
 });
-function GetMessage(req,res){
+function GetMessages(req,res){
 
   Message.find({}).exec(function(err,result){
 
